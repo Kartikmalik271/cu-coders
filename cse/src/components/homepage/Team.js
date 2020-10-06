@@ -7,7 +7,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import TeamCard from './TeamCard';
 import photo from '../../assets/homepage/img/kartik.jpg'
 import photo1 from '../../assets/homepage/img/csquare.jpeg'
-import Particles from 'react-particles-js'
+
 const options={
    
     navText:['',''],
@@ -31,22 +31,8 @@ const options={
 
 const Team = () => {
     return ( 
-        <div className="homepage-team col-12 pb-5"style={{borderBottom:'1px solid grey'}}>
-            <Particles className="teamsparticle col-11" params={{
-                particles:{
-                    number:{
-                        value:120,
-                        density:{
-                            enable:true,
-                            value_area:1200,
-                        }
-                    },
-                    "color":{
-                        "value":"#000000"
-                    },
-                   
-                },
-            }}/>
+        <div className="homepage-team col-12 pb-5">
+            
             <h2 className=" col-5 px-5 mt-5 mb-3 pb-2" style={{ textAlign:'center' , textShadow:'1px 1px 3px black'}}>Our Team</h2>
             <div className="col-12 pt-3 pb-3">
             <div className="row justify-content-center">

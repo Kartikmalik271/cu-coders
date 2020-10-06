@@ -13,9 +13,10 @@ import ClubsCard from './ClubsCard';
 
 const ClubsModal = () => {
     return ( 
-        <div className="row justify-content-center">
+    <div className="modalmain" id="ClubModal">
+        
           <button type="button" className="btn modal-btn-half mt-4 " data-toggle="modal" data-target="#Clubs">Join Clubs ></button>
-          
+          <div className="row justify-content-center">
             <div class="modal fade homepage-clubs" id="Clubs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog modal-xl" role="document">
                     <div class="modal-content">
@@ -33,7 +34,7 @@ const ClubsModal = () => {
                                                             clubsimg={presenters}
                                                             name="Presenters Club"
                                                             details= "Club organizes sessions,GDs, Deabye competitions for enhancing presentaion,
-                                                                    communication skills and confidence in students."
+                                                                    communication skills and confidence in students. "
                                                         /> 
                                 </div>
                                 <div className="col-12 col-lg-4 mt-4"><ClubsCard 
@@ -97,6 +98,7 @@ const ClubsModal = () => {
             </div>
 
         </div>
+    </div>
      );
 }
  

@@ -7,15 +7,14 @@ import Navbar from './components/homepage/Navbar';
 
 
 import Homepage from './page/homepage/homepage';
-import AboutUs from './page/aboutus/aboutus';
 
-import Footer from './components/homepage/footer';
-import Career from './page/career/career';
-import Events from './page/events/Events';
 
 
 
 function App() {
+  const scrollTop = () =>{
+    window.scrollTo({top:0, behavior:'smooth'});
+};
   return (
     <div className="App">
       
@@ -23,19 +22,11 @@ function App() {
         <Navbar/>
           <Switch>
             <Route exact path="/" component={Homepage} />
-            <Route exact path="/AboutUs" component={AboutUs}/>
-            
-            <Route exact path="/Career" component={Career}/>
-            <Route exact path="/Events" component={Events}/>
-            
-
-
-           
-           
 
           </Switch>
-          <Footer/>
       </Router>
+      <h1 className="scroll-top bg-transparent" onClick={scrollTop}><i className="fa fa-chevron-circle-up fa-xl"/></h1>
+
     </div>
   );
 }

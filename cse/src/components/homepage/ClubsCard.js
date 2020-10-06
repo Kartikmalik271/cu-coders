@@ -9,7 +9,7 @@ const ClubsCard = (props) => {
             <img className="homepage-teamcard-image col-8 px-0"style={{}} src={props.clubsimg} alt=""/>
                 <div className="homepage-teamcard-content col-12 pt-2">
                     <h2>{props.name}</h2>
-                    <p className="col-12 ">
+                    <p className="col-12 modal-para">
                       {props.details}
                     </p>
                 </div>

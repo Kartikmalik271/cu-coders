@@ -22,10 +22,36 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <title>Cu-Coders</title>
+    <title>Cu-cse</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          if (scroll > 50) {
+            $('.main-navbar').css('background', '#0005');
+          } else {
+            $('.main-navbar').css('background', '');
+          }
+        });
+      });
+
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          if (scroll > 10) {
+            $('.main-navbar').css(
+              'backdrop-filter',
+              'saturate(180%) blur(20px)'
+            );
+          } else {
+            $('.main-navbar').css('backdrop-filter', '');
+          }
+        });
+      });
+    </script>
+
     <div id="root"></div>
 
     <script
