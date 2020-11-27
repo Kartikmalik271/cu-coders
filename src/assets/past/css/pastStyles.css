@@ -1,0 +1,259 @@
+
+/* Past Head Start */
+
+.past-head
+{
+    padding: 30px;
+}
+
+.past-head-image
+{
+    margin: 30px;
+    margin-top: -15vw;
+}
+
+.past-head-image img
+{
+    width: 100%;
+    max-width: 60vw;
+}
+
+.past-centered
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.past-head-bottom
+{
+    margin-top: 7vw;
+}
+
+.past-head-bottom img
+{
+    width: 100%;
+}
+
+/* Past Head End */
+
+
+/* Past Event Heading Start */
+
+.past-event-head
+{
+    margin-top: -10vw;
+    font-size: 30px;
+    font-weight: 500;
+    color: #F24F04;
+}
+
+.past-hr
+{
+    background-color: #D4579D;
+    width: 7vw;
+    margin-left: auto;
+    height: 2px;
+}
+
+/* Past Event Heading End */
+
+
+
+/* Event Data Start */
+
+.past-card-holder
+{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* 1st Card Details Start */
+
+.past-event-card-image-first
+{
+    padding-top: 10%;
+}
+
+.past-event-card-number-first
+{
+    position: absolute;
+    top: -60px;
+    left: 20px;
+}
+
+.past-event-card-rect-first
+{
+    position: absolute;
+    top: -60px;
+    right: 20px;   
+}
+
+.past-event-card-button-first
+{
+    position: absolute;
+    bottom: 25px;
+    right: -15px;
+    background-color: #DE9A34;
+    color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0% ;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* 1st Card Details End */
+
+
+/* 2nd Card Details Start */
+
+.past-right
+{
+    right: 0;
+}
+
+.past-event-card-image-second
+{
+    padding-top: 10%;
+}
+
+.past-event-card-number-second
+{
+    position: absolute;
+    top: -60px;
+    left: 20px;
+}
+
+.past-event-card-rect-second
+{
+    position: absolute;
+    top: -60px;
+    right: 20px;   
+}
+
+.past-event-card-button-second
+{
+    position: absolute;
+    bottom: 25px;
+    left: -15px;
+    background-color: #E43434;
+    color: white;
+    border-radius: 10px;
+    border-top-left-radius: 0% ;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* 2nd Card Details End */
+
+
+/* 3rd Card Details Start */
+
+.past-event-card-image-third
+{
+    padding-top: 10%;
+}
+
+.past-event-card-number-third
+{
+    position: absolute;
+    top: -60px;
+    left: 20px;
+}
+
+.past-event-card-rect-third
+{
+    position: absolute;
+    top: -60px;
+    right: 20px;   
+}
+
+.past-event-card-button-third
+{
+    position: absolute;
+    bottom: 20px;
+    left: calc( 20% - 50px) ;
+    width: 250px;
+    background-color: #1454AF;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding: 20px 0 20px 35px;
+    font-size: large;
+}
+
+/* 3rd Card Details End */
+
+
+.past-event-card-seemore
+{
+    position: absolute;
+    left: 25%;
+    bottom: -50px;
+    width: 250px;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #EF7F65;
+}
+
+.past-event-card-para
+{
+    color: #9F9F9F;
+    font-size: 24px;
+}
+
+.past-event-card-text
+{
+    color: #3D3D3D;
+    margin: 30px;
+}
+
+.past-event-card-text h1
+{
+    font-size: 50px;
+}
+
+/* Event Data End */
+
+.past-addon
+{
+    outline: none;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0 0 100px 0;
+    width: 250px;
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F24F04;
+}
+
+.past-addon:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 10px 20px #F24F04;
+}
+
+.past-addon span
+{
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    background-color: #F66C2D;
+    border-radius: 5px;
+    font-family: inherit;
+}

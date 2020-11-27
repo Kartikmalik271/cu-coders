@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar main-navbar navbar-expand-md navbar-dark  fixed-top ">
+    <nav className="navbar main-navbar navbar-expand-md navbar-dark  fixed-top justify-content-center">
       <img
-        className="logo mr-auto"
+        className="logo "
         src={logo}
         alt="logo"
-        height="55"
-        width="66"
+        height="67"
+        width="81"
       />
       <button
         className="navbar-toggler bg-transparent"
@@ -27,8 +27,8 @@ const Navbar = () => {
       <div className="collapse navbar-collapse flex-grow-0 " id="Navbar">
         <ul className="navbar-nav " >
 
-          <li className="nav-item active">
-            <Link to="/" className="btn navbar-btn-half nav-link" style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+          <li className="nav-item ">
+            <Link to="/" className="btn navbar-btn-half nav-link " style={{ color:'#003042',fontWeight:'bolder'}} href="#">
               Home
             </Link>
           </li>        
@@ -46,6 +46,18 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item ">
+            <Link to="/Editorial" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+              Editorial
+            </Link>
+          </li>
+
+          <li className="nav-item ">
+            <Link to="/EditorialPost" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+              EditorialP
+            </Link>
+          </li>
+
+          <li className="nav-item ">
             <Link to="/Career" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
               Career
             </Link>
@@ -58,11 +70,46 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item ">
-            <Link to="/Editorial" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
-            Editorial
+            <Link to="/Upcoming" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+              Upcoming
+            </Link>
+          </li>
+
+          <li className="nav-item ">
+            <Link to="/UpcomingDetails" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+              UpcomingD
+            </Link>
+          </li>
+
+          <li className="nav-item ">
+            <Link to="/Past" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+              Past
             </Link>
           </li>
           
+          <li className="nav-item ">
+            <Link to="/Blog" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+              Blog
+            </Link>
+          </li>
+
+          <li className="nav-item ">
+            <Link to="/BlogPost" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+              BlogPost
+            </Link>
+          </li>
+
+          <li className="nav-item ">
+            <Link to="/EventDet" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+              EventDet
+            </Link>
+          </li>
+
+          <li className="nav-item ">
+            <Link to="/Gallery" className="btn navbar-btn-half nav-link"  style={{ color:'#003042',fontWeight:'bolder'}} href="#">
+              Gallery
+            </Link>
+          </li>
 
         </ul>
       </div>

@@ -1,0 +1,138 @@
+.upcomingdet-circle{
+    height: 13%;
+    width: 7%;
+    position: absolute !important;
+    right: 9%;
+    margin-top: -3%;
+    z-index: 3;
+}
+.upcomingdet-dashedbox{
+    
+    width: 15%;
+    z-index: 2;
+    position: absolute !important;
+    right: 5%;
+    margin-top: -6%;
+}
+.upcomingdet-rectangle{
+ width: 6%;
+ height:   10%;
+ position: absolute !important;
+ right: 0;
+ bottom:15% ;
+}
+
+@media (max-width:767px){
+    .upcomingdet-circle{
+        height: 13%;
+        width: 7%;
+        position: absolute !important;
+        right: 12%;
+        margin-top: -3%;
+        z-index: 3;
+    }
+    .upcomingdet-dashedbox{
+        
+        width: 15%;
+        z-index: 2;
+        position: absolute !important;
+        right: 8%;
+        margin-top: -6%;
+    }
+    .upcomingdet-rectangle{
+     width: 6%;
+     height:   10%;
+     position: absolute !important;
+     right: 5%;
+     bottom:15% ;
+    }  
+}
+.upcomingdetails-content-eventimg{
+    height: 40%;
+}
+.upcomingdetails-content-eventimg-prop1{
+    position: absolute !important;
+    left:-19%;
+    
+}
+.upcomingdetails-content-eventimg-prop2{
+    position: absolute !important;
+    right: -17%;
+    margin-top: 15%;
+    
+}
+.upcomingdetails-content-eventimg-prop3{
+    position: absolute !important;
+    right: -9%;
+   bottom: -19%;
+    
+}
+.upcomingdetails-content-eventimg-prop4{
+    position: absolute !important;
+    left:-19%;
+    bottom: 0;
+    
+}
+.upcomingdetails-endtri img{
+    width: 100%;
+}
+.profile1{
+   
+    border-radius: 15px;
+    padding: 10px;
+}
+.profile1-photo{
+    width:15%;
+    height: 15%;
+    border-radius: 50%;
+}
+@media(max-width:767px){
+    .profile1-photo{
+        width:15%;
+        height:15%;
+        border-radius: 50%;
+    }
+ 
+}
+
+.upcomingdetails-more-info .upcomingdetails-lhs {
+    border:1px solid rgb(243, 243, 243);
+    margin: 10px;
+    box-shadow: 0 5px 35px rgb(228, 228, 228);
+    border-top-left-radius: 55px;
+    
+}
+.upcomingdetails-more-info .upcomingdetails-lhs p{
+    padding: 40px;
+    
+}
+
+
+.upcomingdetails-more-info .upcomingdetails-rhs{
+    border:1px solid rgb(243, 243, 243);
+    margin: 10px;
+    box-shadow: 0 5px 35px rgb(228, 228, 228);
+    border-bottom-right-radius: 55px;
+}
+.upcomingdetails-more-info .upcomingdetails-lhs-uprcl , .upcomingdetails-more-info .upcomingdetails-rhs-uprcl{
+    margin: 0 auto;
+    border-radius:50% ;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -12%;
+    padding: 25px;
+}
+@media(max-width:442px){
+    
+    .upcomingdetails-more-info .upcomingdetails-lhs-uprcl , .upcomingdetails-more-info .upcomingdetails-rhs-uprcl{
+        margin: 0 auto;
+        border-radius:50% ;
+        background-color: rgb(231, 231, 231);
+        text-align: center;
+        font-weight: bolder;
+        margin-top: -17%;
+        padding: 22px;
+        }
+}
+

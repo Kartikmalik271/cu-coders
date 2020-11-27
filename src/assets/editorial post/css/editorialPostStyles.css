@@ -1,0 +1,153 @@
+
+/* Starter Start */
+
+.ep-starter-head
+{
+    margin-top: 80px;
+    margin-bottom: -100px;
+}
+
+.ep-starter-background
+{
+    position: absolute;
+    top: -20%;
+    left: 0;
+}
+
+.ep-question-details
+{
+    color: #747474;
+    font-size: 20px;
+}
+
+.ep-starter
+{
+    padding-top: 100px;
+    background-color: #FBFCFD;
+    margin-bottom: 50px ;
+}
+
+.ep-starter-question-details
+{
+    margin: 50px;
+    color: #5A5454;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.ep-starter-question-analysis
+{
+    margin: 50px;
+}
+
+.ep-starter-pcImg img
+{
+    position: absolute;
+    left: calc(50% - 250px);
+    bottom: -5%;
+    max-width: 500px;
+} 
+
+/* .ep-starter-head-design
+{
+    position: absolute;
+    top: -25%;
+    right: 2%;
+}
+
+.ep-starter-head-ellipse
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ep-starter-head-rectangle
+{
+    position: absolute;
+    top: 60%;
+    right: -9%;
+    transform: translate(-50%, -50%);
+} */
+
+/* Starter End */
+
+
+/*  Approach Start*/
+
+.ep-approach-heading
+{
+    color: #294C5B;
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ep-approach-details
+{
+    color: #8D8D8D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.ep-approach-details p
+{
+    margin-top: 100px;
+}
+
+/*  Approach End */
+
+
+/* Code Start */
+
+@media (min-width:768px)
+{
+    .ep-code-flrt
+    {
+        float: right;
+    }
+}
+
+.ep-code-heading
+{
+    color: #294C5B;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ep-code-ps
+{
+    padding: 30px;
+    color: #646464;
+    font-size: larger;
+}
+.ep-code-img
+{
+    max-width: 500px;
+}
+
+/* Code End */
+
+.ep-x-centered
+{
+    display: flex;
+    align-items: center;
+}
+
+.ep-xy-centered
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ep-rounded
+{
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+}

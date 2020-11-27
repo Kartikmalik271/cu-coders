@@ -1,0 +1,28 @@
+.career-main{
+    background-image: url(../../assets/aboutus/img/mainbg.png);
+}
+.career-navtabs{
+   box-shadow: 0 0 40px rgba(0, 255, 255, 0.082);
+    
+}
+.career-navtabs .nav-link{
+    border:none;
+    color:grey;
+    
+}
+.career-navtabs .nav-link:hover{
+    color: orange;
+    border: none;
+}
+.career-navtabs .nav-link.active{
+    color:orange;
+    border: none;
+    
+}
+.actively-hiring{
+    background-image: url(../../assets/career/img/icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+    
+}

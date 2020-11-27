@@ -1,0 +1,155 @@
+.editorial-rainImage
+{
+    position: absolute;
+    top: -15%;
+    max-width: 99%;
+}
+
+.editorial-head
+{
+    margin: 50px 0px;
+}
+
+.editorial-head-left
+{
+    padding: 30px;
+    color: #324865;
+    font-size: x-large;
+    margin: auto;
+    text-align: center;
+}
+.editorial-card-title
+{
+    font-size: 28px;
+}
+.editorial-bold
+{
+    font-size: xxx-large;
+    font-weight: bolder;
+    margin: 50px;
+}
+
+.editorial
+{
+    margin: 50px;
+}
+
+.editorial-head-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editorial-head-right img
+{
+    max-width: 40vw;
+    z-index: -1;
+    min-width: 360px;
+}
+
+.editorial-addon
+{
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 30px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #F24F04;
+    width: 200px;
+}
+
+.editorial-addon button
+{
+    background-color: #F24F04;
+    border: 0;
+    height: 65px;
+    width: 200px;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.editorial-addon span
+{
+    background-color: #F66C2D;
+    text-align: center;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.editorial-addon:hover
+{
+    box-shadow: 0px 5px 25px #F24F04;
+    cursor: pointer;
+}
+
+.editorial-question
+{
+    width: 300px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: #FDFCFA;
+    border: 0;
+    text-align: center;
+}
+
+.editorial-question-img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.editorial-question:hover
+{
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px #F2F2F2;
+}
+
+.editorial-card-img-overlay
+{
+    top: 60%;
+
+}
+.editorial-card-img-overlay div
+{
+    font-size: 24px;
+    margin: 15px;
+    font-weight:  bolder;
+}
+
+.editorial-txt
+{
+    color: #F66C2D;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 28px;
+}
+
+.editorial-event
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F66C2D;
+    font-size: large;
+}
+.editorial-centered
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editorial-checked
+{
+    color: #FFA50A;
+}

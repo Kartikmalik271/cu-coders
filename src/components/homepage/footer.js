@@ -17,7 +17,7 @@ const Footer = () => {
                         <img className="footer-lhs-team-photo col-12 col-md-9 mb-5" src={teams} alt=""/>
                     </div>
                     <div className="footer-rhs col-12 col-md-6 ">
-                        <div className="row justify-content-center">
+                        <div className="row ">
                             <h1 className="col-12 mr-auto">Cu-Coders</h1>
                             <p className="col-12">
                             We provide a platform to the Students  
@@ -26,13 +26,12 @@ const Footer = () => {
                             overall Growth
                             </p>
                             <div className="col-12 mt-2">
-                                <div className="row justify-content-center">
-                                    <button className="footer-btn-half mr-3 px-5">Register</button>
+                                <div className="row ">
+                                    <button className="footer-btn-half ml-3 mr-3 px-5">Register</button>
                                     <button className="footer-btn-full" onClick={scrollTop}>Back to Top</button>
                                 </div>
                             </div>
                             <div className="col-12  col-xs-10 col-sm-10 col-lg-9 mt-4 mb-5 ">
-
                                 <form >
                                     <div className="footer-subscribe-form px-0">
                                         <div className="row">
